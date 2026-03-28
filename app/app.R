@@ -1,9 +1,10 @@
 library(shiny)
 library(tidyverse)
 
-# --- 1. Load and Prep Data ---
-# Grabbing the data from the folder above
-churn_data <- read_csv("../data/Telco-Customer-Churn.csv")
+# --- 1. Load and Prep Data from the Web ---
+# Pulling the raw CSV directly from IBM's public repository!
+data_url <- "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
+churn_data <- read_csv(data_url)
 
 # Quick cleaning: R likes categorical data as "factors" for plotting
 churn_data <- churn_data %>%
