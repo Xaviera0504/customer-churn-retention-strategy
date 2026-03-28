@@ -2,7 +2,7 @@ library(shiny)
 library(tidyverse)
 
 # --- 1. Load and Prep Data from the Web ---
-# Pulling the raw CSV directly from IBM's public repository!
+# Pulling the raw CSV directly from IBM's public repository
 data_url <- "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv"
 churn_data <- read_csv(data_url)
 
