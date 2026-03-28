@@ -7,7 +7,7 @@ To identify high-risk customer segments and "product leaks" within the Telco eco
 ## 🛠️ Tech Stack
 * **Language:** R
 * **Libraries:** Tidyverse (ggplot2, dplyr), Shiny, Shinythemes
-* **Deployment:** [Link to follow]
+* **Deployment:** Hosted live on [shinyapps.io](https://xaviera0504.shinyapps.io/customer-churn-strategy/)
 
 ## 📊 Key Strategic Questions
 1. Which contract types correlate with the highest churn velocity?
